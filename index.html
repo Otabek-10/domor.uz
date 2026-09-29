@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOMOR — Qulay va foydali mahsulotlar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <p>DOMOR — kundalik hayotni yanada qulay qilamiz</p>
+        <span>Since 2025</span>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="#" class="logo">
+                <img src="./domor-logo.svg" alt="DOMOR">
+            </a>
+
+            <nav>
+                <a href="#home">Bosh sahifa</a>
+                <a href="#products">Mahsulotlar</a>
+                <a href="#categories">Kategoriyalar</a>
+                <a href="#about">Biz haqimizda</a>
+            </nav>
+
+            <button class="cart-button" id="openCart">
+
+                <div class="cart-icon">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M3 4h2l2 10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l2-6H6"/>
+                        <circle cx="10" cy="20" r="1.5"/>
+                        <circle cx="18" cy="20" r="1.5"/>
+                    </svg>
+
+                    <span id="cartCount">0</span>
+
+                </div>
+
+                <span>Savat</span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-circle circle-one"></div>
+        <div class="hero-circle circle-two"></div>
+
+        <div class="container hero-content">
+
+            <div class="hero-left">
+
+                <div class="mini-title">
+                    <span></span>
+                    DOMOR STORE · SINCE 2025
+                </div>
+
+                <h1>
+                    Kundalik hayot uchun
+                    <span>qulay</span> va foydali
+                    mahsulotlar
+                </h1>
+
+                <p>
+                    DOMOR — uy, avtomobil, bolalar va
+                    sovg‘alar uchun tanlangan mahsulotlar.
+                    Har kuni kerak bo‘ladigan narsalarni
+                    bir joydan toping.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="main-btn">
+                        Mahsulotlarni ko‘rish
+                        <b>→</b>
+                    </a>
+
+                    <a href="#categories" class="second-btn">
+                        Kategoriyalarni tanlash
+                    </a>
+
+                </div>
+
+                <div class="stats">
+
+                    <div>
+                        <strong>100+</strong>
+                        <small>Mahsulot</small>
+                    </div>
+
+                    <div>
+                        <strong>5</strong>
+                        <small>Kategoriya</small>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <small>Buyurtma</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-right">
+
+                <div class="hero-card">
+
+                    <div class="hero-card-top">
+                        <span>DOMOR SELECT</span>
+                        <b>●</b>
+                    </div>
+
+                    <div class="hero-logo">
+                        D
+                    </div>
+
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="floating-box box-one">⌂</div>
+                    <div class="floating-box box-two">✦</div>
+                    <div class="floating-box box-three">◈</div>
+
+                    <div class="hero-card-bottom">
+
+                        <div>
+                            <small>Tanlangan kolleksiya</small>
+                            <strong>Smart Daily</strong>
+                        </div>
+
+                        <span>2025 →</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+    <section class="categories" id="categories">
+
+        <div class="container">
+
+            <div class="section-top">
+
+                <div>
+                    <span class="green-title">BIR JOYDA</span>
+
+                    <h2>
+                        Kategoriyani tanlang
+                    </h2>
+                </div>
+
+                <p>
+                    O‘zingizga kerakli bo‘limni tanlang
+                    va mos mahsulotlarni ko‘ring.
+                </p>
+
+            </div>
+
+
+            <div class="tabs">
+
+                <button class="tab active" data-category="Barchasi">
+                    Barchasi
+                </button>
+
+                <button class="tab" data-category="Avto">
+                    🚗 Avto
+                </button>
+
+                <button class="tab" data-category="Uy">
+                    ⌂ Uy
+                </button>
+
+                <button class="tab" data-category="Sovg'alar">
+                    ✦ Sovg‘alar
+                </button>
+
+                <button class="tab" data-category="Bolalar">
+                    ♡ Bolalar
+                </button>
+
+                <button class="tab" data-category="Idishlar">
+                    ◌ Idishlar
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+
+        <div class="container">
+
+            <div class="products-header">
+
+                <div>
+                    <span class="green-title">
+                        DOMOR COLLECTION
+                    </span>
+
+                    <h2>
+                        Siz uchun tanlangan
+                    </h2>
+                </div>
+
+                <span id="resultCount">
+                    0 ta mahsulot
+                </span>
+
+            </div>
+
+
+            <div class="products-grid" id="productsGrid">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <span class="green-title">
+                    NEGA DOMOR?
+                </span>
+
+                <h2>
+                    Kerakli mahsulot.
+                    <span>Ortiqcha ovora</span> yo‘q.
+                </h2>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <span>01</span>
+
+                    <h3>
+                        Tanlangan mahsulotlar
+                    </h3>
+
+                    <p>
+                        Kundalik hayotda foydasi tegadigan
+                        mahsulotlarni saralab boramiz.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <span>02</span>
+
+                    <h3>
+                        Qulay xarid
+                    </h3>
+
+                    <p>
+                        Mahsulotni tanlang, sonini belgilang
+                        va umumiy narxni darhol ko‘ring.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <span>03</span>
+
+                    <h3>
+                        DOMOR sifati
+                    </h3>
+
+                    <p>
+                        Sodda, foydali va zamonaviy mahsulotlar
+                        — barchasi bir joyda.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+                <strong>DOMOR</strong>
+                <span>since 2025</span>
+            </div>
+
+            <p>
+                © 2026 DOMOR. Kundalik hayot uchun qulay tanlov.
+            </p>
+
+            <a href="#home">
+                Yuqoriga ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- CART -->
+    <aside class="cart" id="cart">
+
+        <div class="cart-head">
+
+            <div>
+                <span class="green-title">YOUR BAG</span>
+                <h2>Savat</h2>
+            </div>
+
+            <button id="closeCart">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-products" id="cartProducts">
+
+        </div>
+
+
+        <div class="empty-cart" id="emptyCart">
+
+            <div>
+                🛒
+            </div>
+
+            <h3>
+                Savatingiz bo‘sh
+            </h3>
+
+            <p>
+                Yoqtirgan mahsulotingizni
+                savatga qo‘shing.
+            </p>
+
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div class="total">
+
+                <span>
+                    Jami
+                </span>
+
+                <strong id="totalPrice">
+                    0 so‘m
+                </strong>
+
+            </div>
+
+            <button class="order-btn">
+                Buyurtma berish
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- PRODUCT MODAL -->
+    <div class="product-modal" id="productModal">
+
+        <div class="modal">
+
+            <button class="modal-close" id="closeModal">
+                ×
+            </button>
+
+            <div class="modal-image" id="modalImage">
+                🛍️
+            </div>
+
+            <div class="modal-info">
+
+                <span id="modalCategory">
+                    Uy
+                </span>
+
+                <h2 id="modalName">
+                    Mahsulot
+                </h2>
+
+                <p id="modalDescription">
+                    Mahsulot haqida ma'lumot.
+                </p>
+
+                <strong id="modalPrice">
+                    0 so‘m
+                </strong>
+
+
+                <div class="quantity">
+
+                    <span>
+                        Miqdor
+                    </span>
+
+                    <div>
+
+                        <button id="minus">
+                            −
+                        </button>
+
+                        <b id="quantity">
+                            1
+                        </b>
+
+                        <button id="plus">
+                            +
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="modal-total">
+
+                    <span>
+                        Umumiy narx
+                    </span>
+
+                    <strong id="modalTotal">
+                        0 so‘m
+                    </strong>
+
+                </div>
+
+
+                <button class="add-modal" id="addToCart">
+                    Savatga qo‘shish
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="toast" id="toast">
+        Mahsulot savatga qo‘shildi ✓
+    </div>
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html> 
