@@ -1,1 +1,2 @@
 # domor.uz
+# domor.uz
